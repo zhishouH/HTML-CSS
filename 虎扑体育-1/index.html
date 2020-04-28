@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>案例1-来自虎扑体育</title>
+    <style type="text/css">
+        * {
+            padding: 0px;
+            margin: 0px;
+            list-style-type:none;
+        }
+        body{
+            font-family:  Verdana, Geneva, Arial, sans-serif;
+        }
+        #main {
+            width: 800px; 
+            height: 725px;
+            margin: 5px auto;
+            position: relative;
+        }
+        #dynamic {
+            width: 360px;
+            position: absolute;
+            top: 0px;
+            left: 0px; 
+            border-left: 1px solid gray;
+            border-right: 1px solid gray;
+            border-top: 1px solid gray;
+            float: left;
+        }
+        .header {
+            height: 30px;
+            background-color: #CCD1D1;
+        }
+        #dynamic .header h3 {
+            width: 45px;
+            height: 30px;
+            line-height: 30px;
+            padding-left: 8px;
+            background-color: #A93226 ;
+            color: white;
+            font-weight: normal;
+        }
+        #dynamic #list {
+            width: 350px;
+           
+        }
+        #dynamic #list ul {
+            margin: 0px;
+            padding: 0px;
+        }
+        #dynamic #list ul li {
+            height: 75px;
+            width: 360px;
+            background-color:white;
+            margin-top: 10px;
+            border-bottom: 1px solid gray;
+          }
+        #dynamic #list ul li .pic {
+            width: 62px;
+            height: 62px;
+            border: 1px solid gray;
+            margin-left: 5px;
+            float: left;
+        }
+        #dynamic #list ul li .pic img {
+            width: 60px;
+            height: 60px;
+            padding: 1px;
+        }
+        #dynamic #list ul li .news {
+            float: right;
+            width: 275px;
+            margin-right:px;
+        }
+        #dynamic #list ul li .news b,a {
+        text-decoration: none;
+        font-size: 13px;
+        color:  #273746 ;
+        }
+        #dynamic #list ul li .news a:hover {
+            text-decoration: underline;
+            color: #A93226;
+        }
+        #topic {
+            width: 430px;
+            height: 500px;
+           border: 1px solid gray;;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+        .header h3 a{
+            line-height: 30px;
+            padding-left: 8px;
+            font-size: 14px;
+            border-left: 6px solid #A93226 ;
+            font-weight: normal;
+            float: left;
+            color: #212F3D ;
+        } 
+        .header h3 a:hover {
+            text-decoration: underline;
+            color: #A93226;
+        }
+        .header a span{
+            float: right;
+            line-height: 30px;
+            font-size: 11px;
+            color: #273746;
+        }
+        .header a:hover span{
+            text-decoration: underline;
+            color: #A93226;
+        }
+        #topic ul {
+
+        }
+        #topic ul li {
+            margin-top: 8px;
+            margin-left: 10px;
+            height: 25px;
+        }
+        #topic ul li a {
+            font-size: 13px;
+            color:  #273746 ;
+        }
+        #topic ul li a:hover{
+            text-decoration: underline;
+            color: #A93226;
+        }
+        #topic ul li span {
+            font-size: 13px;
+            color: gray;
+        }
+        #WalkingStreet {
+            width: 430px;
+            height: 207px;
+            border: 1px solid gray;;
+            position: absolute;
+            top: 510px;
+            right: 0px;
+        }
+        #WalkingStreet ul {
+            border-bottom: 1px dashed gray;
+        }
+        #WalkingStreet ul li {
+            margin-top: 8px;
+            margin-left: 10px;
+            height: 25px;
+        }
+        #WalkingStreet ul li a {
+            font-size: 13px;
+            color:  #273746 ;
+        }
+        #WalkingStreet ul li a:hover{
+            text-decoration: underline;
+            color: #A93226;
+        }
+        #WalkingStreet ul li span {
+            font-size: 13px;
+            color: gray;
+        }
+        #WalkingStreet p{
+            font-size: 15px;
+            color:  #273746 ;
+            margin-top: 8px;
+            margin-left: 10px;
+        }
+        #WalkingStreet p a:hover {
+            text-decoration: underline;
+            color: #A93226;
+        }
+    </style>
+</head>
+<body>
+   <div id="main">
+       <div id="dynamic">
+           <div class="header">
+               <h3>动态</h3>
+           </div>
+           <div id="list">
+               <ul>
+               <li>
+                    <div class="pic">
+                        <img src="images/twitter.png" alt="Twitter">
+                    </div>
+                    <div class="news"> 
+                        <b>Twitter：</b> 
+                        <a href="https://voice.hupu.com/soccer/2570557.html">意名记爆料：2021年之前，意甲都不太可能让观众进场观赛</a> 
+                    </div>
+               </li>
+                <li>
+                     <div class="pic">
+                        <img src="images/youtube.png" alt="youtube">
+                    </div>
+                    <div class="news"> 
+                        <b>Youtube：</b> 
+                        <a href="https://bbs.hupu.com/34197464.html">科林斯谈停赛生活：每天早餐，锻炼 + 游戏，开始学习外语</a> 
+                    </div>
+                </li>
+                <li>
+                    <div class="pic">
+                       <img src="images/天空体育.png" alt="天空体育">
+                   </div>
+                   <div class="news">
+                        <b>天空体育：</b>
+                         <a href="https://bbs.hupu.com/34197448.html">天空：利物浦前主帅达格利什出院，目前在家自我隔离治疗</a> 
+                        </div>
+               </li>
+               <li>
+                    <div class="pic">
+                        <img src="images/Instagram.jpg" alt="Instagram">
+                    </div>
+                    <div class="news"> 
+                        <b>Instagram：</b>
+                         <a href="https://bbs.hupu.com/34196814.html">手起刀落！NBA回顾德里克·罗斯早年绝杀雄鹿的表现</a> 
+                        </div>
+               </li>
+               <li>
+                    <div class="pic">
+                        <img src="images/Instagram.jpg" alt="Instagram">
+                    </div>
+                    <div class="news">
+                         <b>Instagram：</b> 
+                         <a href="https://bbs.hupu.com/34195938.html">飞天遁地！！NBA回顾JR·史密斯远距离隔扣加里·尼尔</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="pic">
+                        <img src="images/Italia.jpg" alt="Italia">
+                    </div>
+                    <div class="news">
+                         <b>Football-Italia：</b> 
+                         <a href="https://voice.hupu.com/soccer/2570552.html">皮耶罗：迪巴拉这样水平的球员，你必须对他有更高的期望</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="pic">
+                        <img src="images/Instagram.jpg" alt="Instagram">
+                    </div>
+                    <div class="news"> 
+                        <b>Instagram：</b>
+                         <a href="">补签得手！2010年西决G5梅塔·沃尔德皮斯绝杀太阳</a>
+                        </div>
+                </li>
+                <li>
+                    <div class="pic">
+                        <img src="images/新浪微博.jpg " alt="新浪微博">
+                    </div>
+                    <div class="news"> 
+                        <b>新浪微博：</b> 
+                        <a href="">白国华：国足力量速度等数据全面落后于02年国家对</a> 
+                    </div>
+                </li>
+           </ul>
+           </div> 
+       </div>
+       <div id="topic">
+            <div class="header">
+                <h3><a href="https://bbs.hupu.com/vote" target="new">篮球话题</a> </h3>
+                <a href="https://bbs.hupu.com/vote"  target="new"> <span>最近211个热议话题</span> </a>
+            </div>
+            <ul>
+                <li> <a href="https://bbs.hupu.com/30993825.html" target="new">德克场边观战，斯台普斯播放致敬视频</a> <span>22亮300回复</span></li>
+                <li> <a href="https://bbs.hupu.com/30994490.html" target="new">波普定律失效！詹眉合砍52+19难阻失利</a> <span>50亮877回复</span></li>
+                <li> <a href="https://bbs.hupu.com/30994373.html" target="new">第三节强势反弹，东契奇全场27+9+10</a> <span>27亮422回复</span></li>
+                <li> <a href="https://bbs.hupu.com/30994812.html" target="new">东契奇：我上半场太糟了，很开心赢球了</a> <span>29亮372回复</span></li>
+                <li> <a href="https://bbs.hupu.com/30995166.html" target="new">爵士落后40分，创队史最大半场落后分差</a> <span>28亮148回复</span></li>
+            </ul>
+            <div class="header">
+                <h3><a href="https://bbs.hupu.com/topic" target="new">足球话题</a> </h3>
+                <a href="https://bbs.hupu.com/topic" target="new"> <span>最近501个热议话题</span> </a>
+            </div>
+            <ul>
+                <li> <a href="https://bbs.hupu.com/34123866.html" target="new">内马尔母亲晒出与22岁男友合影，男友是内马尔迷...</a> <span>50亮374回复</span></li>
+                <li> <a href="https://bbs.hupu.com/34156085.html" target="new">无耻，捏梅西泥人作者惨遭抄袭，还被巴萨官推推送</a> <span>11亮72回复</span></li>
+                <li> <a href="https://bbs.hupu.com/34476447.html" target="new">内马尔母亲与22岁小男友接吻，内马尔点赞：“妈...</a> <span>11亮64回复</span></li>
+                <li> <a href="https://bbs.hupu.com/33888958.html" target="new">终于轮到我了！我是足球解说詹俊，进来聊聊送Ai</a> <span>50亮4045回复</span></li>
+                <li> <a href="https://bbs.hupu.com/34097143.html" target="new">懂球的jrs来看看，这球九号约位吗</a> <span>35亮284回复</span></li>
+            </ul>
+            <div class="header">
+                <h3> <a href="https://bbs.hupu.com/sports" target="new">体育场话题</a></h3>
+                <a href="https://bbs.hupu.com/sports" target="new"> <span>最近727个热议话题</span> </a>
+            </div>
+            <ul>
+                <li> <a href="https://bbs.hupu.com/28700838.html" target="new">记者采访霍顿，霍顿好尴尬</a> <span>36亮184回复</span></li>
+                <li> <a href="">唯一的橄榄球中文资讯APP上线了</a> <span></span></li>
+            </ul>
+        </div>
+       <div id="WalkingStreet">
+        <div class="header">
+            <h3> <a href="https://bbs.hupu.com/bxj" target="new">步行街</a></h3>
+            <a href="https://bbs.hupu.com/bxj" target="new"> <span>最近438个热议话题</span> </a>
+        </div>
+        <ul>
+            <li> <a href="https://bbs.hupu.com/30851863.html" target="news">哈喽，我是中国第二位MMA世锦赛冠军</a> <span>45亮733回复</span></li>
+            <li> <a href="https://bbs.hupu.com/30847696.html" target="news">B站神作！网红"英雄联盟"全英雄介绍</a> <span>40亮260回复</span></li>
+            <li> <a href="https://bbs.hupu.com/30846306.html" target="news">和爷爷奶奶合了个影，家人们看看几分</a> <span>24亮410回复</span></li>
+            <li> <a href="https://bbs.hupu.com/30849050.html" target="news">网易对暴力裁员事件回应来了，怎么看</a> <span>50亮870回复</span></li>
+        </ul>
+        <p> <a href="https://bbs.hupu.com/27439680.html" target="new">虎扑招聘用户沟通运营</a> | </p>
+       </div>
+   </div>
+</body>
+</html>
