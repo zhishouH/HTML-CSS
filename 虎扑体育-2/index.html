@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>案例2-来自虎扑体育</title>
+    <style type="text/css">
+    * {
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+    }
+    #main{
+        width: 750px;
+        height: 600px;
+        margin: 10px auto;
+        position: relative;
+    }
+    #tab {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    .cont {
+        height: 290px;
+        width: 300px;
+    }
+    .cont div {
+        width: 300px;
+        height: 290px;
+        display: none;
+    }
+    div.show {
+        display: block;
+    }
+    img {
+        width: 300px;
+        height: 290px;
+    }
+    .footer {
+            width: 300px;
+            height: 10px;
+           
+    }
+    .footer span{
+        display: inline-block;
+        width: px;
+        height: 9px;
+    }
+    .footer span img {
+        width: 65px;
+        height: 9px;
+        padding:0px 3px;
+    }
+    .footer a:hover span{
+        background-image: url(images/滑动2.png);
+    }
+    #make {
+        width: 300px;
+        height: 265px;
+        border: 1px solid gray;
+        position: absolute;
+        top: 310px;
+        left: 0px;
+    }
+    #make .header {
+        height: 30px;
+        background-color: #E5E7E9 ;
+    }
+    #make .header h3{
+        width: 75px;
+        font-size: 16px;
+        font-weight: normal;
+        color: white;
+        line-height: 30px;
+        padding-left: 10px;
+        background-color: #C0392B;
+    }
+    #uplist ul {
+       
+    }
+    #uplist ul li{
+        height: 85px;
+        margin: 10px 0px 0px 10px;  
+    }
+    #uplist ul li .M_pic {
+        width: 110px;
+        height: 75px;
+        border: 1px solid gray;
+        float: left;
+    }
+    #uplist ul li .M_pic img {
+        width: 108px;
+        height: 73px;
+        padding: 1px;
+        
+    }
+    #uplist ul li .intro {
+        width: 170px;
+        float: right;
+        font-size: 12px;
+    }
+    #uplist ul li .intro h4 a {
+        color: #CB4335 ;
+        text-decoration: none;
+    }
+    #uplist ul li .intro h4 a:hover{
+        text-decoration: underline;
+    }
+    #uplist ul li .intro p {
+        color: gray;
+    }
+    #downlist ul{
+        margin: 10px 0px 0px 0px;
+        height:35px;
+        font-size: 11px;
+        background-color:  #E5E7E9 ;
+    }
+    #downlist ul li {
+        float: left;
+        margin-left: 10px;
+       line-height: 35px;
+    }
+    #downlist ul li a {
+        color:  #566573;
+        text-decoration: none;
+    }
+    #downlist ul li a:hover {
+        color: #CB4335;
+        text-decoration: underline;
+    }
+    #news {
+        width: 440px;
+        height: 575px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .block {
+        height: 80px;
+        border-bottom: 1px dashed gray;
+        padding-top: 3px;
+        padding-bottom: 12px;
+    }
+    .block .title span {
+        display: block;
+        width: 45px;
+        background-color: #B03A2E ;
+        color: white;
+        padding-left: 10px;
+        border-radius: 4px;
+        float: left;
+    }
+    .block .title ul li {
+        float: left;      
+    }
+    .block .title ul li a  {
+        text-decoration: none;
+        color: #B03A2E ;
+        padding-left: 10px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .block .title ul li a:hover {
+        text-decoration: underline;
+    }
+    .block .list ul li {
+        float: left;
+    }
+    .block .list ul li a {
+        font-size: 12px;
+        text-decoration: none;
+        color: #273746;
+        padding:0px 8px;
+    }
+    .block .list ul li a:hover{
+        text-decoration: underline;
+        color: #B03A2E ;
+    }
+
+    
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="tab">
+            <div class="cont" id="cont">
+                <div class="show"> <a href="https://bbs.hupu.com/32722783.html"><img src="images/T_1.jpg" alt=""></a></div>
+                <div> <a href="https://bbs.hupu.com/32720559.html"><img src="images/T_2.jpg" alt=""></a> </div>
+                <div><a href="https://bbs.hupu.com/33533796.html"><img src="images/T_3.jpg" alt=""></a></div>
+                <div><a href="https://bbs.hupu.com/32726788.html"><img src="images/T_4.jpg" alt=""></a></div>
+                   
+             </div>
+            <div class="footer">
+                <span class="bgc"><img src="images/滑动.png" alt=""></span> <span><img src="images/滑动.png" alt=""></span> <span><img src="images/滑动.png" alt=""></span> <span><img src="images/滑动.png" alt=""></span>
+            </div>
+        </div>
+        <div id="make">
+            <div class="header">
+                <h3>虎扑制造</h3>
+            </div>
+            <div id="uplist">
+                <ul>
+                <li>
+                    <div class="M_pic">
+                        <a href="https://bbs.hupu.com/33071431.html"><img src="images/M_1.jpg" alt=""></a>
+                    </div>
+                    <div class="intro">
+                        <h4><a href="https://bbs.hupu.com/33071431.html">莫兰特正在冲破新秀墙</a></h4>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;他有很多令人印象深刻的表演，天空才是他的极限。</p>
+                    </div>
+                   
+                </li>
+                <li>
+                    <div class="M_pic">
+                        <a href="https://bbs.hupu.com/33066894.html"><img src="images/M_2.jpg" alt=""></a>
+                    </div>
+                    <div class="intro">
+                        <h4><a href="https://bbs.hupu.com/33066894.html">克拉克森：“以退为进”的板凳奇兵</a></h4>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp; 他的身体控制自如，他能做到很多。</p>
+                    </div>
+                </li>
+            </ul>
+            </div>
+
+            <div id="downlist">
+                <ul>
+                <li><a href="https://bbs.hupu.com/33064854.html">回顾历史——热火队史十大</a></li>
+                <li><a href="https://bbs.hupu.com/33036360.html">库班：打篮球让我体会到终</a></li>
+                </ul>
+            </div>
+                
+
+           
+        </div>
+        <div id="news">
+            <div class="block">
+               <div class="title">
+                   <span>NBA</span>
+                   <ul>
+                       <li><a href="https://bbs.hupu.com/34408462.html">球员不喜欢空场比赛</a></li>
+                       <li><a href="https://bbs.hupu.com/34407266.html">戈贝尔：与米切尔有过交流</a></li>
+                   </ul>
+               </div>
+               <div class="list">
+                   <ul>
+                       <li><a href="https://bbs.hupu.com/34456898.html">库班：疫情让我想要去竞选总统</a> |  </li>
+                       <li><a href="https://bbs.hupu.com/34457291.html">拉科布：威金斯比拉塞尔更合适</a></li>
+                       <li><a href="https://bbs.hupu.com/34440576.html">戈贝尔：球迷希望我和米切尔好好的</a> | </li>
+                       <li><a href="https://bbs.hupu.com/34429291.html">珀尔特尔：我想打完本赛季</a></li>
+                       <li><a href="https://hys.people-health.cn/act/ta/#/pages/ncovSuff/index">新型冠状病毒肺炎求助入口</a> | </li>
+                       <li><a href="http://www.piyao.org.cn/xxjbrk.htm">新型冠状病毒肺炎权威辟谣</a></li>
+                   </ul>
+               </div>
+            </div>
+
+            <div class="block">
+                <div class="title">
+                    <span>NBA</span>
+                    <ul>
+                        <li><a href="https://bbs.hupu.com/34420770.html">戈贝尔米切尔已通电话</a></li>
+                        <li><a href="https://bbs.hupu.com/34453932.html">联盟准备25天复赛计划</a></li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li><a href="https://bbs.hupu.com/34444152.html">2021届Ziaire Williams加盟斯坦福</a> |  </li>
+                        <li><a href="https://bbs.hupu.com/34415672.html">麦科勒姆：为复赛做好准备</a></li>
+                        <li><a href="https://bbs.hupu.com/34400725.html">库佛斯预计离开莫斯科中央陆军</a> | </li>
+                        <li><a href="https://bbs.hupu.com/34414407.html">戈贝尔：之前收到了死亡威胁</a></li>
+                    </ul>
+                </div>
+             </div>
+
+             <div class="block"> 
+                <div class="title">
+                    <span>CBA</span>
+                    <ul>
+                        <li><a href="https://bbs.hupu.com/34119290.html">A福格：马布里是北京詹姆斯</a></li>
+                        <li><a href="https://bbs.hupu.com/34447101.html">尚未归队外援可停付薪资</a></li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li><a href="https://bbs.hupu.com/34221995.html">京媒：CBA正制定本季剩余赛程</a> |  </li>
+                        <li><a href="https://bbs.hupu.com/34145005.html">记者：联盟下周再次研判开赛预案</a></li>
+                        <li><a href="https://bbs.hupu.com/34338912.html">CBA五大单场个人数据纪录难打破</a> | </li>
+                        <li><a href="https://bbs.hupu.com/34434048.html">纪录片北京篮球的无敌岁月</a></li>
+                    </ul>
+                </div>
+             </div>
+             
+             <div class="block">
+                <div class="title">
+                    <span>足球</span>
+                    <ul>
+                        <li><a href="https://bbs.hupu.com/34285805.html">足球武磊接近与西班牙人续约
+                        </a></li>
+                        <li><a href="https://bbs.hupu.com/34376285.html">阿森纳球员拒绝降薪</a></li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li><a href="https://bbs.hupu.com/34369051.html">热刺不会把凯恩卖给曼联</a> |  </li>
+                        <li><a href="https://bbs.hupu.com/34264007.html">国米与拜仁就买断佩里西奇达协议</a></li>
+                        <li><a href="https://bbs.hupu.com/34290641.html">每体：无论是否降级，武磊都会留下</a> | </li>
+                        <li><a href="https://bbs.hupu.com/34263183.html">皇马关注巴黎二小将</a></li>
+                        <li><a href="https://bbs.hupu.com/34295374.html">赖斯：想与芒特效力同一家俱乐部</a> | </li>
+                        <li><a href="https://bbs.hupu.com/34258577.html">曼联有信心拿7500万镑赞助费</a></li>
+                    </ul>
+                </div>
+             </div>
+
+             <div class="block">
+                <div class="title">
+                    <span>足球</span>
+                    <ul>
+                        <li><a href="">足球传声筒：不受伤的大罗有多强</a></li>
+                        <li><a href="">C罗欧冠五大记录</a></li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li><a href="https://bbs.hupu.com/33254484.html">热议：当今足坛谁单刀最稳健？</a> |  </li>
+                        <li><a href="https://bbs.hupu.com/33238193.html">阿森纳不败赛季的战术分析</a></li>
+                        <li><a href="https://bbs.hupu.com/33242755.html">视频：恶搞顶级球星们如何带球</a> | </li>
+                        <li><a href="https://bbs.hupu.com/33240515.html">小罗35米超远惊天任意球</a></li>
+                    </ul>
+                </div>
+             </div>
+
+             <div class="block">
+                <div class="title">
+                    <span>中超</span>
+                    <ul>
+                        <li><a href="">中超女足点球胜巴西夺冠</a></li>
+                        <li><a href="">国青1-4韩国无缘亚青赛</a></li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li><a href="https://bbs.hupu.com/30511808.html">热身赛：国足6-1胜阿联酋沙迦FC</a> |  </li>
+                        <li><a href="https://bbs.hupu.com/30489541.html">帕斯托雷拒绝国安900万欧年薪</a></li>
+                        <li><a href="https://bbs.hupu.com/30496436.html">陕西主帅王波将赴北京人和任职</a> | </li>
+                        <li><a href="">亚冠决赛首回合：利雅得1-0浦和</a></li>
+                    </ul>
+                </div>
+             </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    window.onload = function () {
+        var spans = document.getElementsByTagName('span');
+        var divs = document.getElementById("cont").getElementsByTagName('div')
+       for (var i = 0 ; i < spans.length ; i++) {
+           spans[i].index = i ;
+           spans[i].onmouseover = function() {
+              for (var i = 0 ; i < spans.length ; i++) {
+                spans[i].className = '';
+              }
+              this.className = 'bgc';
+              for (var i = 0 ; i <divs.length ; i++) {
+                  divs[i].className = '';
+              }
+              divs[this.index].className = 'show';
+           }
+       }
+    }
+</script>
+</html>
