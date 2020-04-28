@@ -1,0 +1,26 @@
+#intro {
+    width: 1000px;
+    border-bottom: 1px solid #CCD1D1  ;
+    margin: 0px auto;
+}
+#intro h1 {
+    padding-top: 180px;
+    font-size: 36px;
+    text-align: center;
+    width: 680px;
+    margin: 0px auto;
+}
+#intro p {
+    padding-top: 50px;
+    width: 680px;
+    margin: 0px auto;
+    font-size: 20px;
+    text-align: center;
+}
+#intro #pic img{
+    padding-top: 50px;
+    padding-left: 155px;
+    width: 680px;
+    height: 450px;
+    margin-bottom: 60px;
+}

@@ -1,0 +1,81 @@
+#process {
+    width: 650px;
+    height: 1200px;
+    margin: 100px auto;
+}
+#process h2{
+    width: 180px;
+    margin: 0px auto;
+    padding-top: 100px;
+}
+#process p {
+    width: 600px;
+    font-size: 18px;
+    margin: 0px auto;
+    text-align: center;
+    color: #707B7C ;
+}
+#process ul {
+    width: 650px;
+    height: 730px;
+    margin-top: 50px;
+}
+#process ul li {
+    height: 180px;
+}
+#process ul li .pic-process {
+    width: 80px;
+    height: 180px;
+    padding-left: 40px;
+    float: left;
+}
+#process ul li .pic-process img{
+    width: 80px;
+    height: 180px;
+}
+#process ul li .pic-process-4 {
+    width: 80px;
+    height: 80px;
+    padding-left: 40px;
+    float: left;
+}
+#process ul li .pic-process-4 img{
+    width: 80px;
+    height: 80px;
+}
+#process ul li .way {
+    width: 500px;
+    height: 180px;
+    float: right;
+}
+#process ul li .way h2{
+    width: 500px;
+    padding-left: 15px;
+   
+}
+#process ul li .way p{
+    width: 500px;
+    padding-left: 15px;
+    text-align: left;
+}
+#process .promise {
+    width: 600px;
+    margin: 0px auto;
+}
+#process .promise h2 {
+    width: 500px;
+    text-align: center;
+}
+#process .promise span{
+    display: block;
+    padding:10px;
+    width: 150px;
+    background-color: #28B463 ;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+#process .promise span a{ 
+    color: white;
+    text-decoration: none;
+}

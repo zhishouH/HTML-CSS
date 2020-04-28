@@ -1,0 +1,97 @@
+#services {
+    height: 1620px;
+    background-color: #F8F9F9  ;
+}
+#services h2 {
+    width: 550px;
+    font-size: 27px;
+    padding-top: 100px;
+    margin: 0px auto;
+}
+#services p {
+    width: 550px;
+    line-height: 27px;
+    margin: 10px auto;
+    color: #707B7C ;
+}
+#services ul{
+    width: 700px;
+    padding-top: 30px;
+    margin: 20px auto;
+
+}
+#services ul li {
+    float: left;
+    width: 340px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.pic-services {
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+}
+.pic-services img {
+    width: 80px;
+    height: 80px;
+}
+#services h3 {
+    text-align: center;
+    font-size: 20px;
+}
+#services ul li p{
+    width: 350px;
+    text-align: center;
+}
+.ask {
+    width: 400px;
+    margin: 40px auto;
+    border-top: 1px solid #E5E8E8 ;;
+}
+.ask h3 {
+    padding-top: 40px;
+}
+.ask span{
+    display: block;
+    padding:10px;
+    width: 120px;
+    background-color: #28B463 ;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.ask span a{ 
+    color: white;
+    text-decoration: none;
+}
+.help {
+    width: 1480px;
+    height: 550px;
+    background-image: url(../images/parallex.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    margin: 0px auto;
+}
+#services .help h2 {
+    padding-top: 150px;
+    text-align: center;
+    color: white;
+}
+#services .help p {
+    color: white;
+    text-align: center;
+}
+#services .help span{
+    display: block;
+    padding:10px;
+    width: 160px;
+    background-color: #28B463 ;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+#services .help span a{ 
+    color: white;
+    text-decoration: none;
+}

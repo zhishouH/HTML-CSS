@@ -1,0 +1,59 @@
+#work {
+width: 700px;
+height: 550px;
+margin: 50px auto;
+padding-top: 100px;
+}
+#work h2{
+    width: 700px;
+    text-align: center;
+}
+#work p {
+    width: 600px;
+    font-size: 20px;
+    margin: 0px auto;
+    text-align: center;
+    color: #707B7C;
+}
+#work .form-menu {
+    margin-top: 30px;
+    width: 700px;
+    height: 320px;
+ 
+}
+#work .form-menu ul {
+    height: 160px;
+
+}
+#work .form-menu ul li{
+    width: 300px;
+    height: 40px;
+    float: left;
+    color: #707B7C;
+    line-height: 40px;
+    padding: 5px 0px 0px 10px;
+    margin: 10px 0px 10px 25px;
+    border: 1px solid  #E5E8E8 
+}
+#work .form-menu .looking {
+    width: 660px;
+    height: 120px;
+    margin: 0px auto;
+    color: #707B7C;
+    line-height: 40px;
+    padding: 5px 0px 0px 10px;
+    border: 1px solid  #E5E8E8 ;
+}
+#work span{
+    display: block;
+    padding:10px;
+    width: 180px;
+    background-color: #28B463 ;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+#work span a{ 
+    color: white;
+    text-decoration: none;
+}

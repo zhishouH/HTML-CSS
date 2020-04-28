@@ -1,0 +1,150 @@
+#about {
+    padding-top: 60px;
+    width: 1000px;
+    margin: 40px auto;
+}
+#about h2 {
+    width: 650px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 23px;
+    font-weight: normal;
+    padding-top: 60px;
+}
+.about-one {
+    width: 1000px;
+    height: 350px;
+}
+.left-intro{
+    width: 500px;
+    height: 350px;
+    float: left;
+}
+.left-intro h3 {
+    padding-top: 80px;
+    font-size: 22px;
+}
+.left-intro p {
+    padding-top: 15px;
+    font-size: 18px;
+    color: #AAB7B8 ;
+    line-height: 22px;
+}
+.left-intro span {
+    display: block;
+    width: 110px;
+    font-size: 18px;
+    background-color: #28B463 ;
+    margin: 20px 0px;
+    padding:10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.left-intro span a {
+    text-decoration: none;
+    color: white;
+}
+.right-pic {
+    width: 500px;
+    height: 350px;
+    float: right;
+}
+.right-pic img {
+    width: 500px;
+    height: 340px;
+}
+.about-two {
+    width: 1000px;
+    height: 350px;
+}
+.left-pic {
+    width: 500px;
+    height: 350px;
+    float: left;
+}
+.left-pic img {
+    width: 500px;
+    height: 340px;
+}
+.right-intro{
+    width: 500px;
+    height: 350px;
+    float: right;
+}
+.right-intro h3 {
+    padding-top: 80px;
+    font-size: 22px;
+}
+.right-intro p {
+    padding-top: 15px;
+    font-size: 18px;
+    color: #AAB7B8 ;
+    line-height: 22px;
+}
+.right-intro span,.other span {
+    display: block;
+    width: 110px;
+    font-size: 18px;
+    background-color: #28B463 ;
+    margin: 20px 0px;
+    padding:10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.right-intro span a,.other span a {
+    text-decoration: none;
+    color: white;
+}
+.appraisal {
+   width: 600px;
+   height: 130px;
+   border-top: 1px solid #E5E8E8 ;
+   border-bottom: 1px solid #E5E8E8 ;
+   padding: 15px 0px;
+   margin: 30px auto;
+}
+.appraisal p{
+    font-size: 22px;
+    font-style: italic;
+    text-align: center;
+    color: #515A5A ;
+}
+.client {
+    width: 400px;
+    height: 50px;
+    margin: 30px auto;
+
+}
+.pic-client {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.pic-client img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.client p {
+    font-size: 18px;
+    line-height: 50px;
+    font-style: normal;
+    color: #707B7C ;
+    float: right;
+    margin-right: 115px;
+}
+.other {
+    width: 500px;
+    text-align: center;
+    margin: 80px auto;
+}
+.other h3 {
+    font-size: 22px;
+}
+.other p {
+    margin-top: 10px;
+    font-size: 17px;
+}
+.other span {
+    margin: 10px auto;
+}
