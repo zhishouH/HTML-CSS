@@ -1,0 +1,38 @@
+* {
+    /* margin: 0px; */
+    padding: 0px;
+}
+#one{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    border: 1px dashed gray;
+    background-color: #E59866 ;
+}
+li {
+    border: 1px dashed black;
+    background-color: #1ABC9C;
+    margin: 5px;
+    padding: 5px;
+}
+#two{
+    display: flex;
+    flex-direction: row-reverse;
+    list-style-type: none;
+    border: 1px dashed gray;
+    background-color: #E59866 ;
+}
+#three {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    border: 1px dashed gray;
+    background-color: #E59866 ;
+}
+#four {
+    display: flex;
+    flex-direction: column-reverse;
+    list-style-type: none;
+    border: 1px dashed gray;
+    background-color: #E59866 ;
+}
