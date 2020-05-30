@@ -1,0 +1,29 @@
+div#one {
+    width: 400px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 1px dashed gray;
+    margin-bottom: 50px;  
+}
+div#two {
+    width: 400px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px dashed gray;;
+    margin-bottom: 50px;  
+}
+div#three {
+    width: 400px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    border: 1px dashed gray;;
+    margin-bottom: 50px;  
+}
+p {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+}
