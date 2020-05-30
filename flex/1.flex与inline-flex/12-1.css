@@ -1,0 +1,21 @@
+div#one {
+    display: flex;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+div#two {
+    display: inline-flex;
+    padding: 10px;
+}
+div  {
+    border: 1px dashed;
+    background:silver;
+}
+div > * {
+    border: 1px solid;
+    background: #AAA;
+}
+div p,span{
+    margin: 10px;
+    padding: 10px;
+}
