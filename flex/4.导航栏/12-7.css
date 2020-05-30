@@ -1,0 +1,17 @@
+nav {
+    display: inline-flex;
+    flex-direction: column;
+    border-right: 1px solid #ccc;
+}
+a {
+    margin: 5px;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background-color: #ccc;
+    text-decoration: none;
+    color: black;
+}
+a:hover,a:focus,a:active {
+    background-color: #aaa;
+    text-decoration: underline;
+}
