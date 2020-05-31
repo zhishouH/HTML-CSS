@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>弹性盒布局案例-三列</title>
+    <style type="text/css">
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    #header {
+        height: 60px;
+        background-color: #EDBB99  ;
+        margin-bottom: 20px;
+    }
+    #main {
+        height: 800px;
+        width: 1000px;
+        /* background-color: #76D7C4; */
+        margin: 20px auto;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+    }
+    #footer {
+        height: 60px;
+        background-color: #EDBB99  ;
+    }
+    .main-top {
+        height: 80px;
+        background-color: #D98880;
+    }
+    .main-middle {
+        height: 180px;
+        /* background-color: #D7BDE2 ; */
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    .main-middle-left {
+        width: 580px;
+        background-color: #ABEBC6;
+    }
+    .main-middle-right {
+        width: 380px;
+        background-color: #F9E79F;
+    }
+    .main-bottom {
+        height: 500px;
+        /* background-color: #AED6F1; */
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    .main-bottom-left {
+        width: 270px;
+        /* background-color: #F5CBA7; */
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+    }
+    .small{
+        height: 50px;
+        background-color: #F5CBA7;
+    }
+    .big {
+        height: 180px;
+        background-color: #F5CBA7;
+    }
+    .main-bottom-middle {
+        width: 270px;
+        /* background-color: #F0B27A; */
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+    }
+    .main-bottom-right {
+        width: 380px;
+        /* background-color: #EB984E; */
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+    }
+    .main-bottom-right-top {
+        height: 270px;
+        background-color: #EB984E;
+    }
+    .main-bottom-right-bottom {
+        height: 210px;
+        background-color: #EB984E;
+    }
+    </style>
+</head>
+<body>
+    <div id="header"></div>
+    <div id="main">
+        <div class="main-top"></div>
+        <div class="main-middle">
+            <div class="main-middle-left"></div>
+            <div class="main-middle-right"></div>
+        </div>
+        <div class="main-bottom">
+            <div class="main-bottom-left">
+                <div class="small"></div>
+                <div class="small"></div>
+                <div class="big"></div>
+                <div class="big"></div>
+            </div>
+            <div class="main-bottom-middle">
+                <div class="small"></div>
+                <div class="small"></div>
+                <div class="big"></div>
+                <div class="big"></div>
+            </div>
+            <div class="main-bottom-right">
+                <div class="main-bottom-right-top"></div>
+                <div class="main-bottom-right-bottom"></div>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
