@@ -1,0 +1,265 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+#all{
+    /* border: 1px dashed #dddddd; */
+    width: 1000px;
+    height: 2100px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+#header {
+    height: 100px;
+    position: relative;
+}
+#header h1 {
+    width: 320px;
+    font-size: 48px;
+    font-family: Segoe Script; 
+    margin: 0px;
+    padding-left:30px;
+    line-height: 100px;
+    float: left;   
+}
+#header img {
+    float: left;
+    width: 100px;
+    
+}
+#header #interface {
+    width: 150px;
+    height: 50px;
+    float: right;
+    margin: 10px 20px 0px 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+#header #interface img {
+    width: 30px;
+    height: 30px;
+}
+#banner {
+    height:50px;
+     border-bottom: 1px solid #ccc;
+}
+#banner nav {
+    width: 700px;
+    display: flex;
+   float: left;
+}
+#banner nav a {
+    margin: 9px 5px;
+    padding: 5px 15px;
+    border-radius: 3px 3px 0 0;
+    background-color: #B2BABB;
+    text-decoration: none;
+    color: #ffffff;
+}
+#banner nav .home {
+    background-color: #5D6D7E ;
+}
+#banner nav a:hover,#banner nav a:focus,#banner nav a:active {
+    background-color: #5D6D7E ;
+    color: black;
+}
+#banner #search {
+    float: right;
+    width: 250px;
+    height: 35px;
+    margin-top: 9px;
+    margin-right:20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+#banner #search input {
+    width: 250px;
+    height: 26px;
+    border-style: outset;
+    border-radius: 10px;
+     background: url(images/search.png) no-repeat center right;
+    background-size: 30px 30px; 
+}
+#intro {
+    height: 200px;
+    /* background-color: red; */
+}
+#intro .intro-text {
+    margin-left: 5px;
+    width: 900px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    float: left;
+}
+#intro .intro-click {
+    margin-top: 12px;
+    margin-right: 25px;
+    float: right;
+}
+#intro .intro-click button{
+    background-color: #B2BABB;
+    border-style: double;
+}
+#intro #introPIC{
+    margin-top: -5px;
+    width: 1000px;
+    height: 150px;
+    border-top: 1px solid #B2BABB;
+    border-bottom: 1px solid #B2BABB;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+#intro #introPIC img{
+    width: 160px;
+    height: 100px;
+}
+#intro #introPIC p{
+    text-align: center;
+    font-size: 14px;
+}
+#list {
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#list .list-title {
+    width: 1000px;
+    height: 30px;
+    font-weight: normal;
+    font-size: 20px;
+}
+#list .list-title img {
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    float: left;
+} 
+#list .list-title h2{
+    font-size: 20px;
+    float: left;
+    font-weight: normal;
+    margin-left: 3px;
+    line-height: 5px;
+}
+#list .ranking {
+    width: 300px;
+    height: 360px;
+    /* background-color:; */
+    border: 1px outset #B2BABB;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+#list .ranking h1 {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0px;
+    background-color: #5D6D7E;
+    line-height: 40px;
+    color: white;
+}
+#list .ranking .first{
+    width: 300px;
+    height: 70px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+#list .ranking .picOne {
+    margin-left: 5px;
+    width: 40px;
+    height: 70px;
+}
+#list .ranking .picOne img {
+    padding-top: 15px;
+    width: 40px;
+    height: 40px;
+}
+#list .ranking  .picTwo {
+    width: 100px;
+    height: 70px;
+}
+#list .ranking  .picTwo img {
+    width: 100px;
+    height: 70px;
+}
+#list .ranking .text {
+    width: 120px;
+    height: 70px;
+}
+#list .ranking .text h3{
+   text-align: center;
+    font-size:16px ;
+    margin: 10px;
+}
+#list .ranking .text p{
+    text-align: center;
+     color: #E74C3C ;
+    font-size: 11px;
+    margin: 0px;
+}
+#list .ranking .second{
+    width: 300px;
+    height: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+#list .ranking .third{
+    width: 300px;
+    height: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+#list .ranking .next{
+    width: 300px;
+    height: 25px;
+    text-align: center;
+}
+#list .ranking .next img {
+    width: 30px;
+    height: 25px;
+}
+#evaluation {
+    height: 350px;
+    background-color: red;
+}
+#dynamic {
+    height: 400px;
+    background-color: red;
+}
+#pic {
+    height: 100px;
+    background-color: red;
+}
+#service {
+    height: 100px;
+    background-color: red;
+}
+#links {
+    height: 80px;
+    background-color: red;
+}
+#footer {
+    height: 80px;
+    background-color: red;
+}
+.clear {
+    clear: both;
+}
+
+
