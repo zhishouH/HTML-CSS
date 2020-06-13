@@ -3,7 +3,6 @@ body {
     padding: 0px;
 }
 #all{
-    /* border: 1px dashed #dddddd; */
     width: 1000px;
     height: 3200px;
     margin: 0 auto;
@@ -87,6 +86,8 @@ body {
     border-radius: 10px;
      background: url(images/search.png) no-repeat center right;
     background-size: 30px 30px; 
+    outline: none;
+    padding-left: 10px;
 }
 
 #intro {
@@ -682,7 +683,6 @@ body {
 }
 #links {
     height: 80px;
-    /* background-color: red; */
 }
 #links p {
     margin: 0px;
