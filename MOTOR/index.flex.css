@@ -1,0 +1,451 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrap {
+    width: 1000px;
+    height: 2860px;
+    /* border: 1px dashed #dddddd; */
+    margin: 0px auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+/* 头部 */
+header {
+   height: 100px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+/* 头部h1标题speed motor */
+header h1 {
+    width: 320px;
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: Segoe Script;
+    float: left;
+}
+/* 头部摩托车logo */
+header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+/* 头部右侧用户登录设置等操作 */
+header .user-interface {
+    width: 150px;
+    height: 100px;
+    float: right;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+header .user-interface .options {
+    width: 30px;
+    height: 30px;
+}
+header .user-interface .speed-logo {
+    width: 130px;
+    height: 50px;
+    margin-left: 12px;
+}
+
+/* 导航栏 + 搜索框 */
+.banner {
+    height: 50px;
+    /* background-color: teal; */
+    border-bottom: 1px solid #ccc;
+}
+/* 导航 */
+.banner nav {
+    width: 700px;
+    float: left;
+    display: flex;
+}
+.banner nav a {
+    margin: 10px 5px;
+    padding: 5px 15px;
+    border-radius: 3px 3px 0 0;
+    background-color: #B2BABB;
+    text-decoration: none;
+    color: #ffffff;
+}
+.banner nav a.home {
+    background-color: #5D6D7E;
+}
+.banner nav a:hover,.banner nav a:focus,.banner nav a:active {
+    background-color: #5D6D7E ;
+    color: black;
+}
+/* 搜索框 */
+.banner form {
+    height: 30px;
+    width: 250px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+.banner form input {
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background: url(images/search.png) no-repeat center right;
+    background-size: 30px 30px; 
+    outline: none;
+    padding-left: 10px;
+}
+
+/* 车辆类型介绍 */
+.motor-intro {
+    height: 180px;
+    /* background-color: teal; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+/* 车辆类型介绍 */
+.motor-intro .motor-types {
+    width: 900px;
+    height: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.motor-intro .motor-types a {
+    width: 100px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 5px;
+    color: black;
+}
+.motor-intro .motor-types a:hover {
+    text-decoration: underline;
+    color: #D35400;
+}
+/* 按键上一页，下一页 */
+.motor-intro form {
+    width: 80px;
+    height: 30px;
+}
+.motor-intro form input {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    outline: none;
+}
+.motor-intro form input.last-one {
+    background: url(images/arrow_left.png) no-repeat center center;
+    background-size: 30px 30px;
+}
+.motor-intro form input.next-one {
+    background: url(images/arrow_right.png) no-repeat center center;
+    background-size: 30px 30px;
+}
+/* 摩托车图片 */
+.motor-intro .motor-pics {
+    width: 1000px;
+    height: 140px;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.motor-intro .motor-pics .pic-info {
+    width: 180px;
+    height: 160px;
+}
+.motor-intro .motor-pics .pic-info img {
+    width: 180px;
+    height: 100px;
+    margin-top: 8px;
+}
+.motor-intro .motor-pics .pic-info p {
+    margin: 0px;
+    text-align: center;
+    font-size: 13px;
+}
+
+/* 排行榜 */
+.ranking-list {
+    height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+/* 三个榜单 */
+.ranking-list .ranking {
+    width: 300px;
+    height: 360px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+/* 排行榜标题：人气、口碑、品牌 */
+.ranking-list .ranking h1 {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+    margin: 0px;
+    background-color: #5D6D7E;
+    line-height: 40px;
+    color: white;
+}
+.ranking-list .ranking .first {
+    width: 300px;
+    height: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.ranking-list .ranking .second {
+    width: 300px;
+    height: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.ranking-list .ranking .third {
+    width: 300px;
+    height: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.ranking-list .ranking .next {
+    width: 300px;
+    height: 25px;
+    text-align: center;
+}
+.ranking-list .ranking .next img {
+    width: 30px;
+    height: 25px;
+}
+.ranking-list .ranking .pic-ranking {
+    width: 40px;
+    height: 80px;
+}
+.ranking-list .ranking .pic-ranking img {
+    width: 40px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.ranking-list .ranking .pic-motor {
+    width: 100px;
+    height: 80px;
+}
+.ranking-list .ranking .pic-motor img {
+    width: 100px;
+    height: 70px;
+    padding-top: 5px;
+}
+.ranking-list .ranking .brand-price {
+    width: 120px;
+    height: 80px;
+    padding-top: 5px;
+}
+.ranking-list .ranking .brand-price h3 {
+    text-align: center;
+    font-size: 14px;
+    margin: 10px;
+}
+.ranking-list .ranking .brand-price p {
+    text-align: center;
+    color: #E74C3C;
+    font-size: 13px;
+    margin: 0px;
+}
+
+/* 测评 */
+.evaluation {
+    height: 400px;
+    /* background-color: teal; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+/* 图片切换 */
+.evaluation .evaluation-pics {
+    width: 550px;
+    height: 300px;
+    position: relative;
+    border-radius: 3px 0 0 0;
+    position: relative;
+
+}
+.evaluation .evaluation-pics img {
+    width: 550px;
+    height: 300px;
+    border-radius: 3px 0 0 0;
+}
+.evaluation .evaluation-pics #hot {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: -4px;
+    margin-left: -5px;
+}
+/* 最新测评 */
+.evaluation .evaluation-topic {
+    width: 430px;
+    height: 300px;
+}
+.evaluation .evaluation-topic ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.evaluation .evaluation-topic ul li {
+    margin-bottom: 8px;
+    padding-left: 30px;
+    line-height: 30px;
+    height: 30px;
+    background: url(images/排行4.png) no-repeat top left;
+    background-size: 30px 30px;
+    position: relative;
+}
+.evaluation .evaluation-topic ul li span {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-right: 5px;
+    color: #ccc;
+}
+.evaluation .evaluation-topic ul li.new-1 {
+    background: url(images/排行1.png) no-repeat top left;
+    background-size: 30px 30px;
+    margin-top: 3px;
+}
+.evaluation .evaluation-topic ul li.new-2 {
+    background: url(images/排行2.png) no-repeat top left;
+    background-size: 30px 30px;
+}
+.evaluation .evaluation-topic ul li.new-3 {
+    background: url(images/排行3.png) no-repeat top left;
+    background-size: 30px 30px;
+}
+/* 热门话题 */
+.evaluation .hot-topic {
+    width: 10000px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+}
+.evaluation .hot-topic ul {
+    margin: 0px;
+    padding: 0px 0px 0px 5px;
+    list-style-type: none;
+}
+.evaluation .hot-topic ul li {
+    float: left;
+    line-height: 40px;
+    margin-right: 13px;
+}
+
+/* 动态 */
+.news {
+    height: 260px;
+    /* background-color: teal; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.news .news-pic {
+    width: 320px;
+    height: 220px;
+    border: 1px solid #dddddd;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+.news .news-pic img {
+    width: 320px;
+    height: 190px;
+    border-radius: 10px 10px 0 0;
+}
+.news .news-pic p {
+    margin: 0px 0px 0px 5px;
+    height: 30px;
+    line-height: 25px;
+    font-size: 13px;
+}
+.news .news-pic .small-pic {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 20px;
+    width: 80px;
+    border: 1px dashed red;
+}
+.news .news-pic .small-pic img {
+    width: 20px;
+    height: 20px;
+}
+
+.recommend {
+    height: 300px;
+    background-color: teal;
+}
+
+.guess-like {
+    height: 200px;
+    background-color: teal;
+}
+
+.service {
+    height: 200px;
+    background-color: teal;
+}
+
+.links {
+    height: 100px;
+    background-color: teal;
+}
+
+.feedback-from {
+    height: 400px;
+    background-color: teal;
+}
+
+footer {
+    height: 150px;
+    background-color: teal;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    color: #D35400;
+}
+.title {
+    width: 1000px;
+    height: 30px;
+    /* border: 1px dashed red; */
+}
+.title img {
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+.title h2 {
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0px 0px 0px 5px;
+    line-height: 30px;
+}
