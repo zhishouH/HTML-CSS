@@ -681,6 +681,7 @@ body {
     text-decoration: underline;
     color: #D35400;
 }
+
 #links {
     height: 80px;
 }
@@ -704,10 +705,10 @@ body {
     margin:0 15.5px;
     line-height: 30px;
 }
+
 #select {
     width: 1000px;
     height: 400px;
-    /* background-color: red; */
 }
 #select h2 {
     margin: 0px;
@@ -729,6 +730,7 @@ body {
     border:1px solid black; 
     border-radius: 20px;
     padding-left:10px ;
+    outline: none;
 }
 #from #mail {
     width: 400px;
@@ -737,6 +739,7 @@ body {
     border:1px solid black; 
     border-radius: 20px;
     padding-left:10px ;
+    outline: none;
 }
 #from #number {
     margin: 10px 50px;
@@ -746,6 +749,7 @@ body {
     border:1px solid black; 
     border-radius: 20px;
     padding-left:10px ;
+    outline: none;
 }
 #from #city{
     width: 400px;
@@ -754,6 +758,7 @@ body {
     border:1px solid black; 
     border-radius: 20px;
     padding-left:10px ;
+    outline: none;
 }
 #from #specific{
     margin-left: 50px;
@@ -763,6 +768,7 @@ body {
     border:1px solid black; 
     border-radius: 20px;
     padding-left:10px ;
+    outline: none;
 }
 #from #send {
     margin-top: 5px;
@@ -774,10 +780,10 @@ body {
     background-color: #28B463 ;
     color: white;
     font-size: 16px;
+    outline: none;
 }
 #footer {
     height: 150px;
-    /* background-color: red; */
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
