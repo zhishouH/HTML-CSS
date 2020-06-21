@@ -6,7 +6,6 @@ body {
 #wrap {
     width: 1000px;
     height: 2830px;
-    /* border: 1px dashed #dddddd; */
     margin: 0px auto;
     display: flex;
     flex-flow: column nowrap;
@@ -608,7 +607,6 @@ header .user-interface .speed-logo {
 
 footer {
     height: 150px;
-    /* background-color: teal; */
 }
 footer ul {
     margin: 0px auto;
@@ -641,6 +639,7 @@ footer .footer-pic img {
     width: 40px;
     height: 40px;
 }
+
 a {
     text-decoration: none;
     color: #333;
