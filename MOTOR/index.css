@@ -784,6 +784,7 @@ body {
 }
 #footer {
     height: 150px;
+
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
