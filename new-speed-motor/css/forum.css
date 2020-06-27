@@ -1,0 +1,308 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#wrap {
+    width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.user {
+    width: 250px;
+    height: 440px;
+    position: fixed;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid #dddddd;
+}
+.user h2 {
+    font-family: Segoe Script;
+    text-align: center;
+}
+.user div {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.user div img {
+    width: 25px;
+    height: 25px;
+    padding-top: 7px;
+    padding-left: 30px;
+    float: left;
+}
+.user div p {
+    float: left;
+    line-height: 40px;
+    padding-left: 5px;
+}
+.user form input {
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin-left: 75px;
+    background-color: #2E86C1;
+    color: white;
+    outline: none;
+}
+
+.main {
+    width: 600px;
+    height: 1000px;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+}
+.main form input {
+    width: 490px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 50px;
+    outline: none;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding-left: 10px;
+    background: url(../images-forum/search.png) no-repeat center right;
+    background-size: 30px 30px;
+    margin-bottom: 10px;
+}
+.main .news {
+    width: 550px;
+    height: 420px;
+    border-top: 1px solid #dddddd;;
+    margin: 10px auto;
+}
+.main .news .news-top {
+    width: 550px;
+    height: 40px;
+    margin-top: 10px;
+    position: relative;
+}
+.main .news .news-top .top-pic {
+    width: 40px;
+    height: 40px;
+}
+.main .news .news-top .top-pic img {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+.main .news .news-top .top-info {
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+.main .news .news-top .top-info p {
+    font-size: 14px;
+    font-weight: bold;
+}
+.main .news .news-top .top-info span {
+    font-size: 10px;
+}
+
+.main .news .news-top .arrow {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.main .news .news-top .arrow img {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.main .news .news-pic {
+    width: 550px;
+    height: 300px;
+    margin-top: 10px;
+    position: relative;
+}
+.main .news .news-pic img {
+    width: 550px;
+    height: 300px;
+    border-radius: 10px;
+}
+.main .news .news-pic .news-pic-1 {
+    width: 300px;
+    height: 300px;
+}
+.main .news .news-pic .news-pic-2 {
+    width: 240px;
+    height: 145px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.main .news .news-pic .news-pic-3 {
+    width: 240px;
+    height: 145px;
+    position: absolute;
+    top: 155px;
+    right: 0px;
+}
+.main .news .news-bottom {
+    width: 550px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.main .news .news-bottom h3 {
+    font-size: 14px;
+}
+.main .news .news-bottom span {
+    font-size: 12px;
+}
+
+
+/* 边栏：登录、推荐、页脚 */
+aside {
+    width: 350px;
+    height: 600px;
+    float: right; 
+}
+aside .log-in {
+    width: 350px;
+    height: 240px;
+    background-color: #F4F6F6 ;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+aside .log-in h2{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+aside .log-in form .number {
+    font-size: 12px;
+    width: 280px;
+    height: 30px;
+    margin: 20px 0px 20px 20px;
+    background: url(../images-forum/账号.png) no-repeat center left;
+    background-size: 20px 20px;
+    padding-left: 25px;
+    outline: none;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+aside .log-in form .password {
+    font-size: 12px;
+    width: 280px;
+    height: 30px;
+    margin: 0px 0px 10px 20px;
+    background: url(../images-forum/密码.png) no-repeat center left;
+    background-size: 20px 20px;
+    padding-left: 25px;
+    outline: none;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+aside .log-in form #keep-password {
+    margin-left: 20px;
+    outline: none;
+    margin-bottom: 10px;
+}
+aside .log-in form p {
+    position: absolute;
+    top: 145px;
+    right: 20px;
+}
+aside .log-in form .button-log-in {
+    margin-left: 20px;
+    width: 310px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #2E86C1;
+    color: white;
+    outline: none;
+}
+aside .log-in form p.registered {
+    position: absolute;
+  top: 210px;
+    left: 90px;
+}
+aside .recommend {
+    width: 350px;
+    height: 190px;
+    background-color: #F4F6F6 ;
+    margin-top: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+aside .recommend h2 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+aside .recommend .card {
+    width: 330px;
+    height: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    margin-left: 20px;
+}
+aside .recommend .card img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    float: left;
+}
+aside .recommend .card p {
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-left: 10px;
+}
+aside .recommend .card input {
+    width: 80px;
+    height: 30px;
+    float: right;
+    margin-right: 20px;
+    outline: none;
+    background-color: #2E86C1;
+    color: white;
+}
+aside .recommend p.more {
+   width: 350px;
+   height: 30px;
+   text-align: center;
+}
+aside footer {
+    width: 350px;
+    height: 80px;
+}
+aside footer ul {
+    list-style-type: none;
+}
+aside footer ul li {
+    float: left;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+aside footer p {
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+a:hover {
+    text-decoration: underline;
+    color: #D35400;
+}

@@ -1,0 +1,662 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: #333;
+}
+
+#wrap {
+    width: 1000px;
+    height: 2830px; 
+    margin: 0px auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+/* 头部 */
+header {
+   height: 100px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+/* 头部h1标题speed motor */
+header h1 {
+    width: 320px;
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: Segoe Script;
+    float: left;
+}
+/* 头部摩托车logo */
+header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+/* 头部右侧用户登录设置等操作 */
+header .user-interface {
+    width: 150px;
+    height: 100px;
+    float: right;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+header .user-interface .options {
+    width: 30px;
+    height: 30px;
+}
+header .user-interface .speed-logo {
+    width: 130px;
+    height: 50px;
+    margin-left: 12px;
+}
+
+/* 导航栏 + 搜索框 */
+.banner {
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+}
+/* 导航 */
+.banner nav {
+    width: 700px;
+    float: left;
+    display: flex;
+}
+.banner nav a {
+    margin: 10px 5px;
+    padding: 5px 15px;
+    border-radius: 3px 3px 0 0;
+    background-color: #B2BABB;
+    text-decoration: none;
+    color: #ffffff;
+}
+.banner nav a.home {
+    background-color: #5D6D7E;
+}
+.banner nav a:hover,.banner nav a:focus,.banner nav a:active {
+    background-color: #5D6D7E ;
+    color: black;
+}
+/* 搜索框 */
+.banner form {
+    height: 30px;
+    width: 250px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+.banner form input {
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background: url(../images/search.png) no-repeat center right;
+    background-size: 30px 30px; 
+    outline: none;
+    padding-left: 10px;
+}
+
+/* 车辆类型介绍 */
+.motor-intro {
+    height: 180px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+/* 车辆类型介绍 */
+.motor-intro .motor-types {
+    width: 900px;
+    height: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.motor-intro .motor-types a {
+    width: 100px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 5px;
+    color: black;
+}
+.motor-intro .motor-types a:hover {
+    text-decoration: underline;
+    color: #D35400;
+}
+/* 按键上一页，下一页 */
+.motor-intro form {
+    width: 80px;
+    height: 30px;
+}
+.motor-intro form input {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    outline: none;
+}
+.motor-intro form input.last-one {
+    background: url(../images/arrow_left.png) no-repeat center center;
+    background-size: 30px 30px;
+}
+.motor-intro form input.next-one {
+    background: url(../images/arrow_right.png) no-repeat center center;
+    background-size: 30px 30px;
+}
+/* 摩托车图片 */
+.motor-intro .motor-pics {
+    width: 1000px;
+    height: 140px;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.motor-intro .motor-pics .pic-info {
+    width: 180px;
+    height: 160px;
+}
+.motor-intro .motor-pics .pic-info img {
+    width: 180px;
+    height: 100px;
+    margin-top: 8px;
+}
+.motor-intro .motor-pics .pic-info p {
+    margin: 0px;
+    text-align: center;
+    font-size: 13px;
+}
+
+/* 排行榜 */
+.ranking-list {
+    height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+/* 三个榜单 */
+.ranking-list .ranking {
+    width: 300px;
+    height: 360px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+/* 排行榜标题：人气、口碑、品牌 */
+.ranking-list .ranking h1 {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+    margin: 0px;
+    background-color: #5D6D7E;
+    line-height: 40px;
+    color: white;
+}
+.ranking-list .ranking .first {
+    width: 300px;
+    height: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.ranking-list .ranking .second {
+    width: 300px;
+    height: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.ranking-list .ranking .third {
+    width: 300px;
+    height: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.ranking-list .ranking .next {
+    width: 300px;
+    height: 25px;
+    text-align: center;
+}
+.ranking-list .ranking .next img {
+    width: 30px;
+    height: 25px;
+}
+.ranking-list .ranking .pic-ranking {
+    width: 40px;
+    height: 80px;
+}
+.ranking-list .ranking .pic-ranking img {
+    width: 40px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.ranking-list .ranking .pic-motor {
+    width: 100px;
+    height: 80px;
+}
+.ranking-list .ranking .pic-motor img {
+    width: 100px;
+    height: 70px;
+    padding-top: 5px;
+}
+.ranking-list .ranking .brand-price {
+    width: 120px;
+    height: 80px;
+    padding-top: 5px;
+}
+.ranking-list .ranking .brand-price h3 {
+    text-align: center;
+    font-size: 14px;
+    margin: 10px;
+}
+.ranking-list .ranking .brand-price p {
+    text-align: center;
+    color: #E74C3C;
+    font-size: 13px;
+    margin: 0px;
+}
+
+/* 测评 */
+.evaluation {
+    height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+/* 图片切换 */
+.evaluation .evaluation-pics {
+    width: 550px;
+    height: 300px;
+    position: relative;
+    border-radius: 3px 0 0 0;
+    position: relative;
+
+}
+.evaluation .evaluation-pics img {
+    width: 550px;
+    height: 300px;
+    border-radius: 3px 0 0 0;
+}
+.evaluation .evaluation-pics .hot {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: -4px;
+    margin-left: -5px;
+}
+/* 最新测评 */
+.evaluation .evaluation-topic {
+    width: 430px;
+    height: 300px;
+}
+.evaluation .evaluation-topic ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.evaluation .evaluation-topic ul li {
+    margin-bottom: 8px;
+    padding-left: 30px;
+    line-height: 30px;
+    height: 30px;
+    background: url(../images/排行4.png) no-repeat top left;
+    background-size: 30px 30px;
+    position: relative;
+}
+.evaluation .evaluation-topic ul li span {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-right: 5px;
+    color: #ccc;
+}
+.evaluation .evaluation-topic ul li.new-1 {
+    background: url(../images/排行1.png) no-repeat top left;
+    background-size: 30px 30px;
+    margin-top: 3px;
+}
+.evaluation .evaluation-topic ul li.new-2 {
+    background: url(../images/排行2.png) no-repeat top left;
+    background-size: 30px 30px;
+}
+.evaluation .evaluation-topic ul li.new-3 {
+    background: url(../images/排行3.png) no-repeat top left;
+    background-size: 30px 30px;
+}
+/* 热门话题 */
+.evaluation .hot-topic {
+    width: 10000px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+}
+.evaluation .hot-topic ul {
+    margin: 0px;
+    padding: 0px 0px 0px 5px;
+    list-style-type: none;
+}
+.evaluation .hot-topic ul li {
+    float: left;
+    line-height: 40px;
+    margin-right: 13px;
+}
+
+/* 动态 */
+.news {
+    height: 260px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.news .news-pic {
+    width: 320px;
+    height: 220px;
+    border: 1px solid #dddddd;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+.news .news-pic img {
+    width: 320px;
+    height: 190px;
+    border-radius: 10px 10px 0 0;
+}
+.news .news-pic p {
+    margin: 0px 0px 0px 5px;
+    height: 30px;
+    line-height: 25px;
+    font-size: 13px;
+}
+.news .news-pic .small-pic {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 30px;
+    width: 50px;
+}
+.news .news-pic .small-pic img {
+    width: 20px;
+    height: 20px;
+    padding-top: 4px;
+}
+/* 推荐 */
+.recommend {
+    height: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.recommend .recommend-news {
+    width: 490px;
+    height: 260px;
+    border: 1px solid #dddddd;
+    border-radius: 0 0 10px 10px;
+}
+.recommend .recommend-news ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.recommend .recommend-news ul li {
+    height: 30px;
+    line-height: 30px;
+    margin-top: 2px;
+    padding-left: 25px;
+    background: url(../images/排行4.png) no-repeat center left;
+    background-size: 22px 22px;
+    width: 460px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.recommend .recommend-news ul li.tj-1 {
+    background: url(../images/排行1.png) no-repeat center left;
+    background-size: 22px 22px;
+}
+.recommend .recommend-news ul li.tj-2 {
+    background: url(../images/排行2.png) no-repeat center left;
+    background-size: 22px 22px;
+}
+.recommend .recommend-news ul li.tj-3 {
+    background: url(../images/排行3.png) no-repeat center left;
+    background-size: 22px 22px;
+}
+
+/* 猜你喜欢 */
+.guess-like {
+    height: 200px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.guess-like .guess-like-motor {
+    width: 1000px;
+    height: 160px;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.guess-like .guess-like-motor .arrow {
+    width: 20px;
+    height: 160px;
+}
+.guess-like .guess-like-motor .arrow img {
+    width: 20px;
+    padding-top:70px ;
+}
+.guess-like .guess-like-motor .guess-like-pic {
+    width: 180px;
+    height: 160px;
+}
+.guess-like .guess-like-motor .guess-like-pic img {
+    width: 180px;
+    height: 130px;
+}
+.guess-like .guess-like-motor .guess-like-pic p {
+    margin: 0px;
+    text-align: center;
+    font-size: 13px;
+}
+
+/* 服务 */
+.service {
+    height: 200px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    
+}
+.service .service-project {
+    width: 1000px;
+    height: 160px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.service .service-project .project {
+    width: 190px;
+    height: 160px;
+}
+.service .service-project .project img {
+    width: 90px;
+    height: 90px;
+    padding-left: 45px;
+}
+.service .service-project .project p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* 品牌官方链接 */
+.links {
+    height: 70px;
+}
+.links p {
+    margin: 0px 0px 0px 5px;
+    width: 1000px;
+    height: 30px;
+    line-height: 30px;
+    border-left: 10px solid #58D68D ;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.links ul {
+    width: 1000px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    margin-top: 5px;
+    border-top: 1px solid #dddddd;
+}
+.links ul li{
+    float: left;
+    margin:0 15.5px;
+    line-height: 30px;
+}
+
+/* 用户反馈 */
+.feedback-from {
+    height: 400px;
+}
+.feedback-from h2 , .feedback-from p{
+    margin: 0px;
+    text-align: center;
+}
+.feedback-from form {
+    width: 1000px;
+    height: 345px;
+}
+.feedback-from form .name {
+    width: 400px;
+    height: 40px;
+    margin: 0px 50px;
+    color: #333;
+    border:1px solid #dddddd; 
+    border-radius: 20px;
+    padding-left:10px ;
+    outline: none;
+}
+.feedback-from form .mail {
+    width: 400px;
+    height: 40px;
+    color: #333;
+    border:1px solid #dddddd; 
+    border-radius: 20px;
+    padding-left:10px ;
+    outline: none;
+}
+.feedback-from form .number {
+    margin: 10px 50px;
+    width: 400px;
+    height: 40px;
+    color: #333;
+    border:1px solid #dddddd; 
+    border-radius: 20px;
+    padding-left:10px ;
+    outline: none;
+}   
+.feedback-from form .city {
+    width: 400px;
+    height: 40px;
+    color: #333;
+    border:1px solid #dddddd; 
+    border-radius: 20px;
+    padding-left:10px ;
+    outline: none;
+}
+.feedback-from form #specific {
+    margin-left: 50px;
+    width: 870px;
+    height: 200px;
+    color: #333;
+    border:1px solid #dddddd; 
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    outline: none;
+    font-size: 15px;
+}
+.feedback-from form .send {
+    margin-top: 5px;
+    margin-left:400px ;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #28B463;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+
+footer {
+    height: 150px;
+}
+footer ul {
+    margin: 0px auto;
+    padding: 0px;
+    width: 500px;
+    height: 30px;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+footer ul li {
+    line-height: 30px;
+}
+footer p {
+    margin: 0px;
+    width: 1000px;
+    height: 30px;
+    text-align: center;
+}
+footer .footer-pic {
+    margin: 0px auto;
+    width: 350px;
+    height: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+footer .footer-pic img {
+    width: 40px;
+    height: 40px;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+a:hover {
+    text-decoration: underline;
+    color: #D35400;
+}
+.title {
+    width: 1000px;
+    height: 30px;
+}
+.title img {
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+.title h2 {
+    float: left;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0px 0px 0px 5px;
+    line-height: 30px;
+}
