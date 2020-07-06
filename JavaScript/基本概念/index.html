@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>基本概念</title>
+</head>
+
+<body>
+  <script>
+    // 分号；
+    var a = 10, b = 2
+    var sum = a + b  // 即使没有分号也是有效的语句
+    var diff = a - b;
+    console.log(sum)
+    console.log(diff)
+
+    // 代码块:使用代码块可以让编码意图更加清晰，降低出错的机率
+    var test = true
+    if (test) {
+      alert(test)
+    }
+
+    // 变量
+    var message = "hi,zhishouh", found = false, age = 19
+    alert(message + " " + found + " " + age)
+
+    // 数据类型: 简单：Undefined、Null、Boolean、Number、String 复杂：Object
+    //typeof操作符
+    var message = "some string"
+    alert(typeof message)  // string
+    alert(typeof (message))  // string
+    alert(typeof 95)  // number
+    alert(typeof null)  // object
+
+    //Undefined类型
+    var theWord
+    alert(theWord == undefined) //true
+
+    //Null类型
+    var car = null
+    alert(typeof car)  //object
+
+    // Boolean类型  
+  </script>
+</body>
+
+</html>
