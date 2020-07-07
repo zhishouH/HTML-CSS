@@ -8,40 +8,73 @@
 
 <body>
   <script>
-    // 分号；
-    var a = 10, b = 2
-    var sum = a + b  // 即使没有分号也是有效的语句
-    var diff = a - b;
-    console.log(sum)
-    console.log(diff)
+    // // 分号；
+    // var a = 10, b = 2
+    // var sum = a + b  // 即使没有分号也是有效的语句
+    // var diff = a - b;
+    // console.log(sum)
+    // console.log(diff)
 
-    // 代码块:使用代码块可以让编码意图更加清晰，降低出错的机率
-    var test = true
-    if (test) {
-      alert(test)
-    }
+    // // 代码块:使用代码块可以让编码意图更加清晰，降低出错的机率
+    // var test = true
+    // if (test) {
+    //   alert(test)
+    // }
 
-    // 变量
-    var message = "hi,zhishouh", found = false, age = 19
-    alert(message + " " + found + " " + age)
+    // // 变量
+    // var message1 = "hi,zhishouh", found = false, age = 19
+    // alert(message1 + " " + found + " " + age)
 
-    // 数据类型: 简单：Undefined、Null、Boolean、Number、String 复杂：Object
-    //typeof操作符
-    var message = "some string"
-    alert(typeof message)  // string
-    alert(typeof (message))  // string
-    alert(typeof 95)  // number
-    alert(typeof null)  // object
+    // // 数据类型: 简单：Undefined、Null、Boolean、Number、String 复杂：Object
+    // //typeof操作符
+    // var message2 = "some string"
+    // alert(typeof message2)  // string
+    // alert(typeof (message2))  // string
+    // alert(typeof 95)  // number
+    // alert(typeof null)  // object
 
-    //Undefined类型
-    var theWord
-    alert(theWord == undefined) //true
+    // //Undefined类型
+    // var theWord
+    // alert(theWord == undefined) //true
 
-    //Null类型
-    var car = null
-    alert(typeof car)  //object
+    // //Null类型
+    // var car = null
+    // alert(typeof car)  //object
 
-    // Boolean类型  
+    // // Boolean类型  
+    // var message3 = "Hello world!"
+    // var messageAsBoolean = Boolean(message3)
+    // alert(messageAsBoolean)
+    // if (message3) {
+    //   alert("Value is true")
+    // }
+
+    // Number类型
+    //八进制
+    var intNum1 = 070  // 八进制的56
+    var intNum2 = 079  //无效的八进制数值-解析为79
+    var intNum3 = 08  // 无效的八进制数值-解析为8
+    console.log(intNum1)
+    console.log(intNum2)
+    console.log(intNum3)
+
+    //十六进制
+    var hexNum1 = 0xA  // 十六进制的30
+    var hexNum2 = 0x1f  // 十六进制的31
+    console.log(hexNum1)
+    console.log(hexNum2)
+
+    //浮点数值
+    var floatNum1 = 1.1
+    var floatNum2 = 0.1
+    var floatNum3 = .1
+    console.log(floatNum1)
+    console.log(floatNum2)
+    console.log(floatNum3)
+    var floatNum4 = 1. // 小数点后面没有数字-解析为1
+    var floatNum5 = 10.0  // 整数-解析为10
+    console.log(floatNum4)
+    console.log(floatNum5)
   </script>
 </body>
 
