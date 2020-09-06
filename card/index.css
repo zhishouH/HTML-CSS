@@ -1,12 +1,18 @@
+html {
+  height: 100%;
+  margin: 0;
+}
 body {
+  height: 100%;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .bottom{
-  width: 100%;
-  max-width: 450px;
-  height: 650px;
+  height: 100%;
+  width: 400px;
+  height: 550px;
   background: red;
   transform: rotate(-7deg);
   border-radius: 4px;
