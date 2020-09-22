@@ -1,3 +1,7 @@
+@font-face{
+  font-family: "Long_Cang";
+  src: url("LongCang-Regular.ttf")
+}
 html {
   height: 100%;
   margin: 0;
@@ -13,7 +17,7 @@ body {
   height: 100%;
   width: 400px;
   height: 550px;
-  background: red;
+  background: #C0392B;
   transform: rotate(-7deg);
   border-radius: 4px;
 }
@@ -30,19 +34,24 @@ div {
   position: relative;
 }
 .content {
-  font-size: 48px;
-  font-weight: bold;
+  font-size: 36px;
+  /* font-weight: bold;   */
+  font-family: "Long_Cang";
   margin: 0px;
+  line-height: 30px;
+  color: #333333;
 }
-.highlight {
-  color: red;
+
+.background-picture{
+  width: 100%;
+  height: 80px;
 }
 .heart {
   position: absolute;
   right: 48px;
   bottom: 48px;
   font-size: 48px;
-  color: red;
+  color:  #C0392B;
   animation: bling 1s linear 0s infinite alternate;
 }
 @keyframes bling {
