@@ -1,0 +1,73 @@
+body {
+  background-color: black;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#card {
+  width: 1400px;
+  height: 600px;
+  margin: 20px auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.card__cta {
+  width: 420px;
+  height: 580px;
+  border-radius: 5px;
+  background-image: linear-gradient(135deg,#dd21d8,#a467e6,#70a5f2 );
+}
+.card__cta .card-price-box {
+  height: 200px;
+  margin-top: 80px;
+}
+.card__cta .card-price-box p {
+  text-align: center;
+  color: white;
+}
+.card__cta .card-price-box p.card-price-only {
+  font-size: 12px;
+}
+.card__cta .card-price-box p.card-price-value {
+  margin-top: 15px;
+  font-size: 40px;
+}
+.card__cta a.btn {
+  display: block;
+  color: #333333;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  width: 100px;
+  height: 50px;
+ background-color: white;
+  margin-left: 160px;
+  border-radius: 5px;
+}
+.card__cta a.btn:hover {
+  background-image: linear-gradient(to right,#ee4678,#455cf7);
+}
+.card__side--front-2 {
+  width: 420px;
+  height: 580px;
+  border-radius: 5px;
+  background-image: linear-gradient(135deg,#fdd46e,#f9859e,#f63dc5);
+}
+.card__side--front-3 {
+  width: 420px;
+  height: 580px;
+  border-radius: 5px;
+  background-image: linear-gradient(135deg,#8c64ed,#5badb1,#2fee7d);
+}
+.buy {
+  width: 140px;
+  height: 40px;
+  border: 1px solid green;
+  background-image: linear-gradient(to right,#ee4678,#455cf7);
+  margin-left: 690px;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+}
